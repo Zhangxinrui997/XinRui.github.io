@@ -1,92 +1,61 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.4">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.7px 'Songti SC'; color: #848684; -webkit-text-stroke: #848684}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.7px Times; color: #eaffff; -webkit-text-stroke: #eaffff}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.7px Times; color: #fec159; -webkit-text-stroke: #fec159}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.7px Times; color: #b8e67b; -webkit-text-stroke: #b8e67b}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.7px Times; color: #fc385d; -webkit-text-stroke: #fc385d}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.7px Times; color: #79d5ff; -webkit-text-stroke: #79d5ff}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.7px Times; color: #eaffff; -webkit-text-stroke: #eaffff; min-height: 18.0px}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.7px Times; color: #848684; -webkit-text-stroke: #848684}
-    span.s1 {font: 14.7px Times; font-kerning: none}
-    span.s2 {font-kerning: none}
-    span.s3 {font-kerning: none; color: #eaffff; -webkit-text-stroke: 0px #eaffff}
-    span.s4 {font-kerning: none; color: #fc385d; -webkit-text-stroke: 0px #fc385d}
-    span.s5 {font-kerning: none; color: #b8e67b; -webkit-text-stroke: 0px #b8e67b}
-    span.s6 {font-kerning: none; color: #fec159; -webkit-text-stroke: 0px #fec159}
-    span.s7 {font-kerning: none; color: #b97ae5; -webkit-text-stroke: 0px #b97ae5}
-    span.s8 {font-kerning: none; color: #79d5ff; -webkit-text-stroke: 0px #79d5ff}
-    span.s9 {font: 14.7px 'Songti SC'; font-kerning: none}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">/* </span><span class="s2">侧边栏个人信息卡片动态渐变色</span><span class="s1"> */</span></p>
-<p class="p2"><span class="s2">#aside-content &gt; .card-widget.card-info {</span></p>
-<p class="p3"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s4">background</span><span class="s3">: </span><span class="s2">linear-gradient</span><span class="s3">(</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">    </span>-</span><span class="s5">45deg</span><span class="s2">,</span></p>
-<p class="p4"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s2">#e8d8b9</span><span class="s3">,</span></p>
-<p class="p4"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s2">#eccec5</span><span class="s3">,</span></p>
-<p class="p4"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s2">#a3e9eb</span><span class="s3">,</span></p>
-<p class="p4"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s2">#bdbdf0</span><span class="s3">,</span></p>
-<p class="p4"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s2">#eec1ea</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span>);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s4">box-shadow</span><span class="s2">: </span><span class="s5">0</span><span class="s2"> </span><span class="s5">0</span><span class="s2"> </span><span class="s5">5px</span><span class="s2"> </span><span class="s6">rgb</span><span class="s2">(</span><span class="s5">66</span><span class="s2">, </span><span class="s5">68</span><span class="s2">, </span><span class="s5">68</span><span class="s2">);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s4">position</span><span class="s2">: relative;</span></p>
-<p class="p5"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s2">background-size</span><span class="s3">: </span><span class="s5">400%</span><span class="s3"> </span><span class="s5">400%</span><span class="s3">;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span>-webkit-</span><span class="s4">animation</span><span class="s2">: Gradient </span><span class="s5">10s</span><span class="s2"> ease infinite;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span>-moz-</span><span class="s4">animation</span><span class="s2">: Gradient </span><span class="s5">10s</span><span class="s2"> ease infinite;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s4">animation</span><span class="s2">: Gradient </span><span class="s5">10s</span><span class="s2"> ease infinite </span><span class="s7">!important</span><span class="s2">;</span></p>
-<p class="p2"><span class="s2">}</span></p>
-<p class="p6"><span class="s2">@-webkit-keyframes</span><span class="s3"> Gradient {</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s5">0%</span><span class="s2"> {</span></p>
-<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s2">background-position</span><span class="s3">: </span><span class="s5">0%</span><span class="s3"> </span><span class="s5">50%</span><span class="s3">;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s5">50%</span><span class="s2"> {</span></p>
-<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s2">background-position</span><span class="s3">: </span><span class="s5">100%</span><span class="s3"> </span><span class="s5">50%</span><span class="s3">;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s5">100%</span><span class="s2"> {</span></p>
-<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s2">background-position</span><span class="s3">: </span><span class="s5">0%</span><span class="s3"> </span><span class="s5">50%</span><span class="s3">;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p2"><span class="s2">}</span></p>
-<p class="p6"><span class="s2">@-moz-keyframes</span><span class="s3"> Gradient {</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s5">0%</span><span class="s2"> {</span></p>
-<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s2">background-position</span><span class="s3">: </span><span class="s5">0%</span><span class="s3"> </span><span class="s5">50%</span><span class="s3">;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s5">50%</span><span class="s2"> {</span></p>
-<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s2">background-position</span><span class="s3">: </span><span class="s5">100%</span><span class="s3"> </span><span class="s5">50%</span><span class="s3">;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s5">100%</span><span class="s2"> {</span></p>
-<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s2">background-position</span><span class="s3">: </span><span class="s5">0%</span><span class="s3"> </span><span class="s5">50%</span><span class="s3">;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p2"><span class="s2">}</span></p>
-<p class="p2"><span class="s8">@keyframes</span><span class="s2"> Gradient {</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s5">0%</span><span class="s2"> {</span></p>
-<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s2">background-position</span><span class="s3">: </span><span class="s5">0%</span><span class="s3"> </span><span class="s5">50%</span><span class="s3">;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s5">50%</span><span class="s2"> {</span></p>
-<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s2">background-position</span><span class="s3">: </span><span class="s5">100%</span><span class="s3"> </span><span class="s5">50%</span><span class="s3">;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s5">100%</span><span class="s2"> {</span></p>
-<p class="p5"><span class="s3"><span class="Apple-converted-space">    </span></span><span class="s2">background-position</span><span class="s3">: </span><span class="s5">0%</span><span class="s3"> </span><span class="s5">50%</span><span class="s3">;</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">  </span>}</span></p>
-<p class="p2"><span class="s2">}</span></p>
-<p class="p7"><span class="s2"></span><br></p>
-<p class="p8"><span class="s2">/* </span><span class="s9">黑夜模式适配</span><span class="s2"> */</span></p>
-<p class="p2"><span class="s2">[data-theme=</span><span class="s5">"dark"</span><span class="s2">] #aside-content &gt; .card-widget.card-info {</span></p>
-<p class="p5"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s2">background</span><span class="s3">: </span><span class="s5">#191919ee</span><span class="s3">;</span></p>
-<p class="p2"><span class="s2">}</span></p>
-<p class="p7"><span class="s2"></span><br></p>
-<p class="p8"><span class="s2">/* </span><span class="s9">个人信息</span><span class="s2">Follow me</span><span class="s9">按钮</span><span class="s2"> */</span></p>
-<p class="p2"><span class="s2">#aside-content &gt; .card-widget.card-info &gt; #card-info-btn {</span></p>
-<p class="p5"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s2">background-color</span><span class="s3">: </span><span class="s5">#3eb8be</span><span class="s3">;</span></p>
-<p class="p5"><span class="s3"><span class="Apple-converted-space">  </span></span><span class="s2">border-radius</span><span class="s3">: </span><span class="s5">8px</span><span class="s3">;</span></p>
-<p class="p2"><span class="s2">}</span></p>
-</body>
-</html>
+/* 侧边栏个人信息卡片动态渐变色 */
+#aside-content > .card-widget.card-info {
+  background: linear-gradient(
+    -45deg,
+    #e8d8b9,
+    #eccec5,
+    #a3e9eb,
+    #bdbdf0,
+    #eec1ea
+  );
+  box-shadow: 0 0 5px rgb(66, 68, 68);
+  position: relative;
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 10s ease infinite;
+  -moz-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite !important;
+}
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 黑夜模式适配 */
+[data-theme="dark"] #aside-content > .card-widget.card-info {
+  background: #191919ee;
+}
+
+/* 个人信息Follow me按钮 */
+#aside-content > .card-widget.card-info > #card-info-btn {
+  background-color: #3eb8be;
+  border-radius: 8px;
+}
