@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Rui</title>
+  <title>张鑫睿的博客</title>
   
   <subtitle>坚持追光的人，终究光芒万丈</subtitle>
   <link href="http://zhangxinrui997.github.io/atom.xml" rel="self"/>
@@ -8,6 +8,11 @@
   <link href="http://zhangxinrui997.github.io/"/>
   <updated>2025-04-03T14:29:28.362Z</updated>
   <id>http://zhangxinrui997.github.io/</id>
+  
+  <author>
+    <name>努力上进的小睿</name>
+    
+  </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
